@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+
+<style>
+
+
+
+
+
+.pageStyleCreate{
+    padding: 5em;
+    border: 4px solid;
+    background-image: linear-gradient(to right, silver,white);
+    margin: 30px;
+}
+
+.createStyle{
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.createLogoStyle{
+    display: flex;
+    justify-self: center;
+    font-family: sans-serif;
+
+}
+
+
+.divOne{
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative; top:1em; left:40em;
+    width: 50%;
+}
+
+
+.divTwo{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative; top:1em; left:30em;
+    width: 50%;
+}
+
+
+.divThree{
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative; top:1em; left:20em;
+    width: 50%;
+}
+
+
+</style>
+
+
+
+
+<body background="images/80s.png">
+    <div class="createStyle">
+    <img src="images/RetroBlog.png" height="400" width="400">
+</div>
+    <div class="createStyle">
+    <a href="index.html"><h3>Home</h3></a>
+    <a href="post.html"><h3>Current Posts</h3></a>
+    <a href="posts.html"><h3>Previous Posts</h3></a>
+    <br>
+    <br>
+</div>
+
+
+    <form>  
+            <!--div1-->
+            <div class="pageStyleCreate">
+            <div class="divOne">
+            <p><b><u>Choose which console you are posting about:</u></b></p>
+            <input type="radio" id="superNintendo" name="chosenConsole" value="SuperNintendo">
+            <label for="gameConsole">Super Nintendo</label><br>
+            <input type="radio" id="segaGenesis" name="chosenConsole" value="SegaGenesis">
+            <label for="gameConsole">Sega Genesis</label><br>
+            <input type="radio" id="nintendoEntertainmentSystem" name="chosenConsole" value="NintendoEntertainmentSystem">
+            <label for="gameConsole">Nintendo Entertainment System</label><br>
+            </div>
+            <!--div1-->
+            <br>
+            <br>
+            <div class="divTwo">
+            <!--Div2-->
+            <label for="title">Post Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+            <br>
+            <br>
+            <label for="gameTitle">Game Title:</label><br>
+            <input type="text" id="gameTitle" name="gameTitle"><br>
+            <!--Div2-->
+        </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!--Div3-->
+            <div class="divThree">
+            <p><b><h2><u>Your Thoughts</u></h2></b></p>
+            <textarea id="gamingThoughts" name="gamingThoughts" rows="10" cols="100"></textarea><br>
+            <br>
+            <label for="gameImage"><b>Upload a game screenshot!</b></label><br>
+            <br>
+            <input type="file" id="gameImage" name="gameImage" accept="image/*"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+            <!--Div3-->
+
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+
+    </form>
+</div>
+</body>
+
+
+
+
+
+
+</html>
+
